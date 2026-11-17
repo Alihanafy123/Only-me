@@ -39,7 +39,7 @@ class MainActivity : Activity() {
         return LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER_HORIZONTAL
-            setPadding(dp(24), dp(28), dp(24), dp(24))
+            setPadding(dp(14), dp(28), dp(14), dp(24))
             background = gradient()
         }
     }
@@ -209,7 +209,7 @@ class MainActivity : Activity() {
         val card = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER
-            setPadding(dp(10), dp(10), dp(10), dp(14))
+            setPadding(dp(6), dp(6), dp(6), dp(12))
 
             background = GradientDrawable().apply {
                 setColor(Color.argb(35, 255, 143, 205))
@@ -232,7 +232,7 @@ class MainActivity : Activity() {
             image,
             LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
-                dp(230)
+                dp(360)
             )
         )
 
