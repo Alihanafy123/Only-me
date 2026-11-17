@@ -1,0 +1,14 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ONLY YOU Color Palette -->
+    <color name="only_black">#080610</color>
+    <color name="only_background">#100A1F</color>
+    <color name="only_purple">#8B5CF6</color>
+    <color name="only_light_purple">#C4A7FF</color>
+    <color name="only_pink">#F0A6D8</color>
+    <color name="only_white">#FFFFFF</color>
+    <color name="only_text_secondary">#C7BBD9</color>
+
+</resources>
