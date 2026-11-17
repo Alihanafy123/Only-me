@@ -1,9 +1,10 @@
-
 <resources>
-    <style name="SplashTheme" parent="AppTheme">
-        <item name="android:windowSplashScreenBackground">#080610</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash_heart</item>
-        <item name="android:windowSplashScreenIconBackgroundColor">#1B1030</item>
-        <item name="android:postSplashScreenTheme">@style/AppTheme</item>
+
+    <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#080610</item>
+        <item name="android:navigationBarColor">#080610</item>
+        <item name="android:windowBackground">#080610</item>
     </style>
+
 </resources>
