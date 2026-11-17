@@ -11,12 +11,12 @@
         <item name="android:navigationBarColor">#05050E</item>
         <item name="android:windowActionModeOverlay">true</item>
         <item name="android:colorAccent">#FF8FCD</item>
-
-        <!-- ONLY YOU Window Design -->
         <item name="android:windowBackground">@drawable/bg_splash</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">false</item>
 
     </style>
+
+    <style name="SplashTheme" parent="AppTheme" />
 
 </resources>
