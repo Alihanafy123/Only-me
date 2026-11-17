@@ -34,6 +34,9 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
+      - name: Accept Android SDK Licenses
+        run: yes | sdkmanager --licenses
+
       - name: Generate Gradle Wrapper
         run: gradle wrapper --gradle-version 8.9
 
@@ -48,4 +51,3 @@ jobs:
           name: ONLY-YOU-APK
           path: app/build/outputs/apk/debug/app-debug.apk
           retention-days: 14
-          
