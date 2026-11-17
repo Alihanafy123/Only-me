@@ -1,5 +1,4 @@
 
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="AppTheme"
         parent="@android:style/Theme.Material.Light.NoActionBar">
@@ -13,6 +12,5 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">false</item>
     </style>
-
     <style name="SplashTheme" parent="AppTheme" />
 </resources>
